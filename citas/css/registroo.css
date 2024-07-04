@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 97vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 35%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+    0 10px 10px rgba(0,0,0,0.22);
+}
+form{
+    height: 95%;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+}
+.texto{
+    width: 100%;
+    color: #333733;
+    border-left: 5px solid #333733;
+    font-size: 130%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    width: 90%;
+}
+form input{
+    height:7%;
+    width: 100%;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: #E4E4E4;
+}
+input::placeholder{
+    width: 100%;
+    font-size: 120%;
+    text-align: center;
+}
+label{
+    width: 100%;
+    font-size: 115%;
+}
+select{
+    height: 7%;
+    width: 100%;
+    border-radius: 7px;
+    font-size: 80%;
+}
+button{
+    height: 8%;
+    width: 100%;
+    color: white;
+    font-size: 110%;
+    font-weight: bold;
+    border-radius: 7px ;
+    background-color: #333733;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: #333733;
+    border: 2px solid black;
+}
+.raya{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.raya p{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    color:#707270;
+}
+hr{
+    width: 80%;
+}
+#sesion{
+    background-color: white;
+    color: #333733;
+}
+#sesion:hover{
+    background-color:#333733;
+    color: white;
+    border: 2px solid white;
+}
+@media (max-width:700px) {
+    .container{
+        width: 80%;
+    }
+}

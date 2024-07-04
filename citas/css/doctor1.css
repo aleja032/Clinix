@@ -1,0 +1,70 @@
+
+body{
+margin: 0;
+padding: 0;
+height: 97vh;
+}
+header{
+    background-color:#11307C;
+    height: 10%;
+
+}
+.regresar{
+font-size: 130%;
+}
+.regresar>a>i{
+border: 1px solid yellow;
+
+}
+
+
+.container{
+    display:flex;
+    height: 400px;
+    width: 300px;
+    margin: 130px auto;
+    border: 1px solid;
+    border-radius: 20px;
+    flex-direction: column;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top:50px;
+}
+.ci{
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+i{
+    display: flex;
+    position: absolute;
+    margin-left: 15rem;
+    padding-top: 0.5rem;
+
+}
+input{
+    display: flex;
+    height: 1.5rem;
+    width: 15rem;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+p{
+    width: 55rem;
+    color: white;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+}
+button{
+    width: 8rem;
+    margin-top: 6px;
+    padding: 5px;
+    margin-left:90px
+}
