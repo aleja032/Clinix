@@ -10,3 +10,4 @@ El proyecto de desarrollo de software para la asignación de citas médicas,  co
 El proyecto de desarrollo de software para la asignación de citas médicas utiliza una variedad de tecnologías y herramientas para su implementación.
 Estas incluyen FullCalendar, un plugin de calendario de JavaScript, y un lenguaje de programación de backend como PHP . Además, de  un servidor web como XAMPP para así gestionar MySQL 
 como base de datos y para el área de Frontend se usa herramientas como: html y css. 
+se requiere de un servidor local xampp para visualizar el proyecto.
